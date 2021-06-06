@@ -109,3 +109,47 @@ barplot(invest*weight_MVP)
 barplot(invest.tab, main="Investment - NSS vs SS ",
         xlab="Stock",
         legend = stocks, beside=TRUE)
+
+#---------------------------------------- Comparing Market Betas (Correlations) with US Federal Database and DJI Composite average (Proxy for US equity market) ---------------------------------------------------
+
+pDJI <- get.hist.quote('^DJI', start=start, quote = "Adjusted",retclass="zoo",compression="m")
+rDJI = diff(pDJI)/pDJI[-length(pDJI)]
+muD = mean(rDJI)
+sd2D = var(rDJI)
+
+bill=read.csv("TB3MS (1).csv") # 3 month US Treasury Bill from FRED database
+
+rf = diff(bill[,2])/100
+
+betas = matrix(0,8,1)
+sharpe = matrix(0,8,1)
+rownames(betas) <- stocks
+rownames(sharpe) <- stocks
+for(i in 1:length(stocks)){
+  pStock =get.hist.quote(stocks[i], start=start, quote = "Adjusted",retclass="zoo",compression="m")
+  rStock = diff(pStock)/pStock[-length(pStock)]
+  betas[i,1] = summary(lm(I(rStock - mean(rf))~I(rDJI- mean(rf))))$coefficients[2,1]
+  rStock = 100*((rStock/12+1)^12-1)
+  sharpe[i,1] = mean(rStock - rf)/sd(rStock)
+}
+
+
+#---------------------------------------- extra ---------------------------------------------------
+library(ggplot2)
+
+start="2019-01-01"
+
+stock<-"BHP.AX"
+
+price.hist<-get.hist.quote(stock, start=start, quote = "Adjusted",retclass="zoo",compression="m")
+plot(price.hist)
+
+#Quarterly Report 
+# abline(v=as.Date("2020-04-30"),col=4)
+# abline(v=as.Date("2020-07-30"),col=3)
+# abline(v=as.Date("2020-10-29"),col=2)
+
+stock.numeric <- as.numeric(price.hist)
+stock.ts<-ts(stock.numeric,start=c(2019,01),frequency=12)
+plot(stock.ts)
+plot(decompose(stock.ts))
