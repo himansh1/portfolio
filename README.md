@@ -8,7 +8,7 @@ The following table is a compilation of projects undertaken and presented in thi
 | Content Cell  | Content Cell  |
 
 
-### Project: Global Minium Variance Portflio for Shares/Stocks
+## Project: Global Minium Variance Portflio for Shares/Stocks
 
 **Objective**: 
 >Optimise weights in portfolio of selected shares/stocks to minimise variance or risk
