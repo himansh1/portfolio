@@ -3,14 +3,14 @@
 
 | Category  | Project Name | Project File |
 | ------------- | ------------- | ------------- |  
-| Finance  | Global Minium Variance Portflio for Shares/Stocks  | [Global_MVP_Portfolio.R](https://github.com/himansh1/portfolio/blob/main/R/Global_MVP_Portfolio.R)
-| Content Cell  | Content Cell  |
+| Finance  | Global Minium Variance Portflio for Stocks  | [Global_MVP_Portfolio.R](https://github.com/himansh1/portfolio/blob/main/R/Global_MVP_Portfolio.R)
+| Finance  | Global MVP for Stocks (RShiny)  | 
 
 
 ## Project: Global Minimum Variance Portflio for Shares/Stocks
 
 **Objective**: 
->Optimise weights in portfolio of selected shares/stocks to minimise variance or risk
+>Optimise a portfolio of selected stocks to minimise risk
 
 Functionality: 
 1. User selects N stocks they may be interested in making a portfolio of. User inputs the Yahoo Finance Tickrs of selected stocks (for ex. APPL,MSFT, etc). 
