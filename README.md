@@ -19,6 +19,9 @@ Functionality:
 2. Running the script will result in vector 'weights' which defines the optimal investment as a % of total in each stock of the portfolio.
 3. The weights are optimally theoretically minimizing the variance or risk of the portfolio of entered stocks;
 
+Requirements: 
+1. Correct Tckrs from Yahoo Finance
+ 
 ___________________________________________________________________________________________________________________________________________________
 
 ## Project: SKU Level Forecasting APP
@@ -65,3 +68,6 @@ Context
 >Acousticness: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
 >>Liveness: Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides a strong likelihood that the track is live
 
+Requirements: 
+1. Spotfiy API requirements - Use the correct global scopes found @ [developers.spotify](https://developer.spotify.com) 
+2. Initial Investigation not required for Machine learning - more to illustrate  
