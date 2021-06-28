@@ -4,7 +4,7 @@
 | Category  | Project Name | Project File |
 | ------------- | ------------- | ------------- |  
 | Finance  | Global Minium Variance Portflio for Stocks  | [Global_MVP_Portfolio.R](https://github.com/himansh1/portfolio/blob/main/R/Global_MVP_Portfolio.R)
-| Forecasting  | SKU level Forecasting (RShiny)  | 
+| Forecasting  | SKU level Forecasting (RShiny)  | [SKU Forecasting RShiny App](https://github.com/himansh1/portfolio/tree/main/R/SKU_Forecast_Rshiny)
 
 
 ## Project: Global Minimum Variance Portflio for Shares/Stocks
