@@ -1,10 +1,10 @@
-# **Welcome to my portfolio**
+# **Himansh's super awesome portfolio**
 
 
 | Category  | Project Name | Project File |
 | ------------- | ------------- | ------------- |  
 | Finance  | Global Minium Variance Portflio for Stocks  | [Global_MVP_Portfolio.R](https://github.com/himansh1/portfolio/blob/main/R/Global_MVP_Portfolio.R)
-| Finance  | Global MVP for Stocks (RShiny)  | 
+| Forecasting  | SKU level Forecasting (RShiny)  | 
 
 
 ## Project: Global Minimum Variance Portflio for Shares/Stocks
