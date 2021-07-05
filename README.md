@@ -1,4 +1,4 @@
-# **Himansh's super awesome portfolio** :joy:
+# **Himansh's super awesome portfolio**
 
  
 | Category  - Objective | Project Name | Repo File |
