@@ -1,7 +1,7 @@
 # **Himansh's super awesome portfolio**
 
  
-| ###**Category  - Objective** | ###**Project Name** | ###**Repo File** |
+| ### **Category  - Objective** | ### **Project Name** | ### **Repo File** |
 | ------------- | ------------- |------------- | 
 | Finance  - Optimisation  | [Global Minium Variance Portflio for Stocks](#MVP)  | [Global_MVP_Portfolio.R](https://github.com/himansh1/portfolio/blob/main/R/Global_MVP_Portfolio.R)
 | Supply Chain - Demand Forecasting  | [SKU level Forecasting App](#SKU)  | [SKU Forecasting RShiny App](https://github.com/himansh1/portfolio/tree/main/R/SKU_Forecast_Rshiny)
