@@ -1,15 +1,15 @@
 # **Himansh's super awesome portfolio**
 
  
-| Category  - Objective | Project Name | Project File |
+| Category  - Objective | Project Name | Repo File |
 | ------------- | ------------- |------------- | 
-| Finance  - Optimisation  | Global Minium Variance Portflio for Stocks  | [Global_MVP_Portfolio.R](https://github.com/himansh1/portfolio/blob/main/R/Global_MVP_Portfolio.R)
-| Supply Chain/Operations  - Forecasting  | SKU level Forecasting (RShiny)  | [SKU Forecasting RShiny App](https://github.com/himansh1/portfolio/tree/main/R/SKU_Forecast_Rshiny)
-| Music  - Recommendation  | Spotify Playlist using ML  | [Spotify Playlist Using ML](https://github.com/himansh1/portfolio/tree/main/Python/Spotify_Playlist_ML)
+| Finance  - Optimisation  | [Global Minium Variance Portflio for Stocks](#MVP)  | [Global_MVP_Portfolio.R](https://github.com/himansh1/portfolio/blob/main/R/Global_MVP_Portfolio.R)
+| Supply Chain - Demand Forecasting  | [SKU level Forecasting App](#SKU)  | [SKU Forecasting RShiny App](https://github.com/himansh1/portfolio/tree/main/R/SKU_Forecast_Rshiny)
+| Music  - Recommendation  | [Spotify Playlist using ML](#SPOT)  | [Spotify Playlist Using ML](https://github.com/himansh1/portfolio/tree/main/Python/Spotify_Playlist_ML)
 
 ___________________________________________________________________________________________________________________________________________________
 
-## Project: Global Minimum Variance Portflio for Shares/Stocks
+## Project: Global Minimum Variance Portflio for Shares/Stocks {#MVP}
 
 **Objective**: 
 >Optimise a portfolio of selected stocks to minimise risk
@@ -24,7 +24,7 @@ Requirements:
  
 ___________________________________________________________________________________________________________________________________________________
 
-## Project: SKU Level Forecasting APP
+## Project: SKU Level Forecasting APP {#SKU}
 
 **Objective**: 
 >Shiny Application that helps forecast at SKU level
@@ -43,7 +43,7 @@ Requirements:
 
 ___________________________________________________________________________________________________________________________________________________
 
-## Project: Using Spotfiy API and Machine Learning to create a personalized playlist  
+## Project: Using Spotfiy API and Machine Learning to create a personalized playlist {#SPOT}
 
 **Objective**: 
 >Create a personalized playlist using Machine Learning
